@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal link page for Alexandr Kharchneko, also known as Vibe Sanchez."
+    />
+    <meta name="theme-color" content="#07080d" />
+
+    <meta property="og:title" content="Vibe Sanchez | Alexandr Kharchneko" />
+    <meta
+      property="og:description"
+      content="YouTube, Telegram, and contact links for support questions or ad offers."
+    />
+    <meta property="og:type" content="website" />
+
+    <title>Vibe Sanchez | Alexandr Kharchneko</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Pixelify+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%2307080d"/><circle cx="34" cy="30" r="18" fill="%23f5e8b7"/><circle cx="42" cy="24" r="5" fill="%2307080d" opacity=".22"/><rect x="14" y="44" width="36" height="4" fill="%238df6ff"/></svg>'
+    />
+  </head>
+  <body>
+    <canvas id="starfield" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+
+    <main class="page-shell">
+      <nav class="topbar" aria-label="Primary">
+        <a class="brand" href="./" aria-label="Vibe Sanchez home">
+          <span class="brand-mark">VS</span>
+          <span class="brand-text">Vibe Sanchez</span>
+        </a>
+        <span class="status">
+          <span class="status-dot"></span>
+          online signal
+        </span>
+      </nav>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">personal orbit</p>
+          <h1 id="page-title">
+            <span>Alexandr</span>
+            <span>Kharchneko</span>
+          </h1>
+          <p class="alias">aka <span>Vibe Sanchez</span></p>
+          <div class="link-grid" aria-label="Profile links">
+            <a
+              class="link-card youtube"
+              href="https://www.youtube.com/@vibe_sanchez"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="icon-pill" aria-hidden="true">
+                <svg class="youtube-icon" viewBox="0 0 24 24" focusable="false">
+                  <path d="M9.4 7.8v8.4l7.2-4.2-7.2-4.2Z" />
+                </svg>
+              </span>
+              <span class="link-text">
+                <strong>YouTube</strong>
+                <small>@vibe_sanchez</small>
+              </span>
+              <i class="arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+
+            <a
+              class="link-card telegram"
+              href="https://t.me/vibe_sanchez"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="icon-pill" aria-hidden="true">
+                <i data-lucide="send"></i>
+              </span>
+              <span class="link-text">
+                <strong>Telegram</strong>
+                <small>t.me/vibe_sanchez</small>
+              </span>
+              <i class="arrow" data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+
+            <button
+              class="link-card mail copy-card"
+              type="button"
+              data-copy-email="sacha1336511@gmail.com"
+              aria-label="Copy email address sacha1336511@gmail.com"
+            >
+              <span class="icon-pill" aria-hidden="true">
+                <i data-lucide="mail"></i>
+              </span>
+              <span class="link-text">
+                <strong>Email</strong>
+                <small class="email-address">sacha1336511@gmail.com</small>
+                <span class="link-note">support questions / ad offers</span>
+              </span>
+              <span class="copy-state" aria-hidden="true">
+                <i data-lucide="copy"></i>
+                <span>Copy</span>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="visual" aria-hidden="true">
+          <div class="orbit-ring ring-one"></div>
+          <div class="orbit-ring ring-two"></div>
+          <div class="pixel-moon">
+            <span class="moon-shade shade-one"></span>
+            <span class="moon-shade shade-two"></span>
+            <span class="moon-shade shade-three"></span>
+          </div>
+          <div class="satellite pixel-block"></div>
+          <div class="spark spark-one"></div>
+          <div class="spark spark-two"></div>
+          <div class="spark spark-three"></div>
+        </div>
+      </section>
+    </main>
+
+    <section class="planet-scroll" aria-label="Telegram follow animation">
+      <div class="planet-sticky">
+        <div class="scroll-space" aria-hidden="true">
+          <div class="scroll-orbit scroll-orbit-one"></div>
+          <div class="scroll-orbit scroll-orbit-two"></div>
+          <div class="scroll-moon pixel-moon">
+            <span class="moon-shade shade-one"></span>
+            <span class="moon-shade shade-two"></span>
+            <span class="moon-shade shade-three"></span>
+          </div>
+          <div class="scroll-satellite"></div>
+        </div>
+
+        <div class="scroll-message">
+          <p>telegram transmission</p>
+          <h2>
+            Hello bro, follow my Telegram
+            <span class="pixel-heart" aria-hidden="true"></span>
+          </h2>
+          <a
+            class="telegram-button"
+            href="https://t.me/vibe_sanchez"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i data-lucide="send" aria-hidden="true"></i>
+            Open Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>Vibe Sanchez</span>
+      <span>2026</span>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
